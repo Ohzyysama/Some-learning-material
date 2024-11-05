@@ -15,3 +15,4 @@ Branch: element whose degree is not 0<br>
 思考：如何根据先序和中序遍历结果构建一棵二叉树？并对该树进行遍历。(见代码)<br>
 # Binary tree <——> Forest
 森林：左子女右兄弟<br>
+!<https://github.com/Ohzyysama/Tree/blob/main/p1.png>
