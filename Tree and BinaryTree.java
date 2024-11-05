@@ -14,11 +14,23 @@ public class BinaryNode(){
 public void preorder(BinaryNode root){
   if(root != null){
   System.out.print(root.element);
+  preorder(root.left);
+  preorder(root.right);
   }
-  if(root.left != null){
-    preorder(root.left);
+}
+中序遍历
+public void inorder(BinaryNode root){
+  if(root != null){
+  inorder(root.left);
+  System.out.print(root.element);
+  inorder(root.right);
   }
-  if(root.right != null){
-    preorder(root.right);
+}
+后序遍历
+public void postorder(BinaryNode root){
+  if(root != null){
+  postorder(root.left);
+  postorder(root.right);
+  System.out.print(root.element);
   }
 }
