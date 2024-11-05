@@ -10,3 +10,15 @@ public class BinaryNode(){
   }
 }
 
+先序遍历
+public void preorder(BinaryNode root){
+  if(root != null){
+  System.out.print(root.element);
+  }
+  if(root.left != null){
+    preorder(root.left);
+  }
+  if(root.right != null){
+    preorder(root.right);
+  }
+}
