@@ -187,7 +187,7 @@ public void kruskal(){
 }
 ```
 #### 算法分析
-O(e $log_2 e$ +e $log_2 n$ +$n^2$+n);<br>
+O(e $log_2 e$ +e $log_2 n$ + $n^2$ +n);<br>
 ### Prim算法
 设：<br>
 原图的顶点集合V(有n个)<br>
